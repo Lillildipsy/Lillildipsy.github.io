@@ -53,7 +53,6 @@ nav{
 
 .tabBar li.darkMode{
     background:grey;
-    border-right: 1px solid white;
 }
 
 .tabBar li:last-child {
@@ -91,6 +90,7 @@ nav{
     right: 10px;
     bottom: 10px;
     background-color: black;
+    color: white;
 }
 
 .darkButton.darkMode {
@@ -99,4 +99,5 @@ nav{
     right: 10px;
     bottom: 10px;
     background-color: white;
+    color: black;
 }
