@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    background: #FFABCF;
+    background: repeating-linear-gradient(135deg, rgba(255, 171, 207, 1) 0%, rgba(148, 219, 233, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body.darkMode{
+    background: #000040;
+    background: repeating-linear-gradient(270deg, rgba(0, 0, 64, 1) 0%, rgba(0, 74, 59, 1) 100%);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", monospace;
+    margin: 5px;
+}
+
+h1.darkMode{
+    color: white;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", monospace;
+    margin: 5px;
+}
+
+p.darkMode{
+    color: white;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    padding: 5px 5px;
+}
+
+.tabBar {
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tabBar li {
+  float: right;
+  background: whitesmoke;
+  border-right: 1px solid black;
+}
+
+.tabBar li.darkMode{
+    background:grey;
+    border-right: 1px solid white;
+}
+
+.tabBar li:last-child {
+    border-right: none;
+}
+
+.tabBar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+}
+
+.tabBar li a:hover:not(.active) {
+  background-color: grey;
+}
+
+.tabBar li a.active {
+  background-color: grey;
+}
+
+.tabBar li a:hover:not(.active).darkMode {
+  background-color: white;
+}
+
+.tabBar li a.active.darkMode {
+  background-color: white;
+}
+
+.darkButton {
+    position: fixed;
+    padding: 15px 15px;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+}
+
+.darkButton.darkMode {
+    position: fixed;
+    padding: 15px 15px;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+}

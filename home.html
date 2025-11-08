@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+
+<head class="adaptiveTheme">
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>Lillildipsy's Github.io site</title>
+<body class="adaptiveTheme">
+
+<nav>
+  <ul class="tabBar">
+    <li class="adaptiveTheme"><a href="#home" class="active adaptiveTheme">Home</a></li>
+    <li class="adaptiveTheme"><a href="#projects" class="adaptiveTheme">Projects</a></li>
+    <li class="adaptiveTheme"><a href="#about" class="adaptiveTheme">About</a></li>
+  </ul>
+</nav>
+
+<h1 class="adaptiveTheme">Home</h1>
+<p class="adaptiveTheme">Hey. If you're here right now, you're probably looking for my DD2 Randomiser.
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</p>
+
+<button class="darkButton adaptiveTheme" onclick="toggleDarkMode()">^.^</button>
+
+<script>
+function toggleDarkMode(){
+  var elementArr = document.getElementsByClassName("adaptiveTheme")
+  for (let i = 0; i < elementArr.length; i++){
+    elementArr[i].classList.toggle("darkMode");
+  }
+}
+</script>
+
+</body>
+</html> 
